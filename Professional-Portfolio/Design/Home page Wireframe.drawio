@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="PIxDS_FqiCMEFBA3h9aI">
+    <mxGraphModel dx="774" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;&#xa;fillColor=none;dashed=1;dashPattern=8 4;" value="" vertex="1">
+          <mxGeometry height="520" width="680" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;header&amp;gt;&lt;/div&gt;&lt;div&gt;mySite.com&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="640" x="60" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="640" x="60" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;&#xa;fillColor=none;dashed=1;dashPattern=2 4;" value="" vertex="1">
+          <mxGeometry height="270" width="640" x="60" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;footer&amp;gt;&lt;/div&gt;&lt;div&gt;Copy right and contact&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="640" x="60" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;main&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;nav&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Home" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Home" vertex="1">
+          <mxGeometry height="30" width="60" x="187" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Bio" vertex="1">
+          <mxGeometry height="30" width="60" x="300" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Media" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Results" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Contact" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-15" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;article&amp;gt;&lt;/div&gt;&lt;div&gt;who i am&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="390" x="70" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="0J8a6_5cMlpSF8BIRJm3-16" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;aside&amp;gt;&lt;/div&gt;&lt;div&gt;Skill Snapshot&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="220" x="470" y="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
