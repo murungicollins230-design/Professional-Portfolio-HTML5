@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- lang="en" tells screen readers which language to use -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- each page gets its own unique title -->
+  <title>Media</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- header: same site header and navigation as the other pages -->
+  <header>
+    <h1>E-tivity 3</h1>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Bio</a></li>
+        <li><a href="gallery.html">Media</a></li>
+        <li><a href="data.html">Results</a></li>
+        <li><a href="contact.html">Input</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- section: groups the image gallery under one heading -->
+    <section>
+      <h2>Gallery</h2>
+      <p>A few pictures from our University.</p>
+
+      <!-- figure + figcaption: ties each image to its caption.
+           alt text describes the image for screen readers. -->
+      <figure>
+        <img src="images/images.jpeg"
+             alt="This is the first building ">
+        <figcaption>Fast building</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/images1.jpeg"
+             alt="This is the main entrance">
+        <figcaption>Main Gate</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/images2.jpeg"
+             alt="Behind the FCI building">
+        <figcaption>Behind view of FCI Building</figcaption>
+      </figure>
+    </section>
+
+    <!-- section: the video. controls lets the user play and pause.
+         The text inside video shows if the browser can't play it. -->
+    <section>
+      <h2>Video</h2>
+      <figure>
+        <video controls width="640">
+          <source src="videos/How_to_create_a_web_page_in_HTML_using_Notepad(480p).mp4" type="video/mp4">
+        </video>
+        <figcaption>Creating a HTML page using Notepad</figcaption>
+      </figure>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 . Made for SWE2106 Etivity 3.</p>
+  </footer>
+
+</body>
+</html>
