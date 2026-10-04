@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- lang="en" tells screen readers which language to use -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- each page gets its own unique title -->
+  <title>Results</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- header: same site header and navigation as the other pages -->
+  <header>
+    <h1>E-tivity 3</h1>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Bio</a></li>
+        <li><a href="gallery.html">Media</a></li>
+        <li><a href="data.html">Results</a></li>
+        <li><a href="contact.html">Input</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Our skills</h2>
+      <p>A summary of the skills we use and where we use them.</p>
+
+      <!-- table: used because this is real tabular data.
+           caption describes the table for screen readers. -->
+      <table>
+        <caption>Skills, level and where we use them</caption>
+
+        <!-- thead: holds the column headings.
+             scope="col" tells assistive tech each th labels a column -->
+        <thead>
+          <tr>
+            <th scope="col">Skill</th>
+            <th scope="col">Level</th>
+            <th scope="col">Where we use it</th>
+          </tr>
+        </thead>
+
+        <!-- tbody: the main rows of data.
+             scope="row" tells assistive tech each th labels a row -->
+        <tbody>
+          <tr>
+            <th scope="row">Python</th>
+            <td>Intermediate</td>
+            <td>Video production scripts</td>
+          </tr>
+          
+          <tr>
+            <th scope="row">HTML and CSS</th>
+            <td> Beginner</td>
+            <td>This portfolio website</td>
+          </tr>
+          <tr>
+            <th scope="row">SQL</th>
+            <td>Beginner</td>
+            <td>Database coursework</td>
+          </tr>
+          <tr>
+            <th scope="row">Android</th>
+            <td>Beginner</td>
+            <td>Unlocked Tech tips</td>
+          </tr>
+        </tbody>
+
+        <!-- tfoot: a summary row at the bottom of the table -->
+        <tfoot>
+          <tr>
+            <th scope="row">Total skills</th>
+            <td colspan="2">4</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026. Made for SWE2106 Etivity 3.</p>
+  </footer>
+
+</body>
+</html>
