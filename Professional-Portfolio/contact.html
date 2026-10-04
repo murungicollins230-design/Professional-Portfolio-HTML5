@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- lang="en" tells screen readers which language to use -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- each page gets its own unique title -->
+  <title>Input</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- header: same site header and navigation as the other pages -->
+  <header>
+    <h1>E-tivity 3</h1>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Bio</a></li>
+        <li><a href="gallery.html">Media</a></li>
+        <li><a href="data.html">Results</a></li>
+        <li><a href="contact.html">Input</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Contact us</h2>
+      <p>Send us a message using the form below.</p>
+
+      <!-- form: collects user input. There is no server behind this
+           site, so action="#" keeps the page as it is on submit. -->
+      <form action="#" method="post">
+
+        <!-- fieldset + legend: groups related fields and gives the
+             group a name for screen readers -->
+        <fieldset>
+          <legend>Your details</legend>
+
+          <!-- label for="..." matches the input id, so clicking the
+               label focuses the field and screen readers announce it -->
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <!-- type="email" makes the browser check the email format -->
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <!-- type="tel" shows a number keypad on phones -->
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </fieldset>
+
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026. Made for SWE2106 Etivity 3.</p>
+
+</body>
+</html>
